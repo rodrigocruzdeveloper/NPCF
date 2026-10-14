@@ -7,8 +7,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     [SerializeField] private float speed;
     [SerializeField] private float invencibleTime;
-    [SerializeField] private GameObject attack;
-    
+       
     private Vector2 direction;
     private bool rolling;
     private float currentInvencibleTime;
