@@ -55,11 +55,11 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (direction.x < 0)
         {
-            spriteRenderer.flipX = true;
+            transform.eulerAngles = new Vector2(0f, 180f);
         }
         else if (direction.x > 0)
         {
-            spriteRenderer.flipX = false;
+            transform.eulerAngles = new Vector2(0f, 0f);
         }
     }
 
